@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@font-face {
+  font-family: "Witchy";
+  src: url(./CreepyWitchPersonalUse-GOvXq.ttf);
+}
+@font-face {
+  font-family: "Cute";
+  src: url(./WashelCute-AL9Vg.otf);
+}
+@font-face {
+  font-family: "Rawk";
+  src: url(./RawkDemo-vmGyD.otf);
+}
+body {
+  overflow-x: hidden;
+  backdrop-filter: blur(1.5px) !important;
+  margin: 0 auto;
+  text-align: center !important;
+  background: url(../images/background.jpg) !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  height: 100vh !important;
+  z-index: -5 !important;
+  overflow-y: hidden;
+}
+body .Header {
+  font-size: 150px;
+  padding-top: 20px;
+  text-shadow: 3px 3px 5px #00ffbf;
+  color: rgba(255, 255, 255, 0.952);
+  font-family: "Rawk";
+  filter: drop-shadow(1px 1px 5px #207761);
+}
+body .Header:hover {
+  text-shadow: 5px 5px 2px #207761;
+  transition: 1s;
+}
+body .Generator {
+  padding: 20px 20px;
+}
+body .Generator .word-description {
+  background-color: #36363617;
+  padding: 30px;
+}
+body .Generator .word-desc-list {
+  padding-top: 2px;
+  color: white;
+  font-weight: 800;
+  text-decoration: 9px solid underline rgba(206, 79, 199, 0.76);
+  font-size: 23px;
+  text-transform: uppercase;
+  font-family: "Merriweather", serif;
+  filter: drop-shadow(0.5px 0.8px #131313);
+}
+body .Generator .volume {
+  background-color: #00ffbf;
+  color: #131313;
+}
+body .Generator .volume i {
+  padding-top: 5px !important;
+}
+body .Generator .volume:hover {
+  color: rgba(255, 255, 255, 0.952);
+  border: none;
+  transition: 0.9s;
+  background-color: #8f268a;
+}
+body .Generator .word-desc-result {
+  color: white;
+  text-shadow: 1px 1px 8px #00ffbf;
+  font-size: 18px;
+}
+body .Generator h2 {
+  font-size: 45px;
+  color: white;
+  font-family: "Cute";
+  text-shadow: 5px 5px 8px #8f268a;
+  filter: drop-shadow(4px 3px 2px #181818);
+  margin-top: 40px;
+}
+body .Generator .searchBox {
+  width: 60%;
+  text-align-last: center !important;
+  margin-left: 20%;
+  font-family: "Merriweather", serif;
+}
+body .Generator .searchBox .search-btn {
+  box-shadow: 1px 2px 5px #8f268a;
+  background-color: #8f268a;
+  border: none;
+  width: 70px !important;
+}
+body .Generator .searchBox .search-btn:hover {
+  color: #131313;
+  background-color: #00ffbf;
+}
+body .Generator .searchBox #exampleText {
+  height: 70px;
+  box-shadow: -2px 1px 5px #8f268a;
+  padding-top: 22px;
+  color: #8f268a;
+  font-size: 20px;
+  font-weight: 600;
+}
+body .scroll {
+  background: url(../images/scroll.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  z-index: -6 !important;
+  filter: drop-shadow(1px 1px 4px #00ffbf);
+}
+body .Randomizer {
+  margin-top: 10px;
+  height: 80vh;
+  z-index: 2 !important;
+}
+body .Randomizer .randomizeBox {
+  height: 100vh;
+  padding: 20px 20px;
+  z-index: 2 !important;
+}
+body .Randomizer .randomizeBox h1 {
+  font-size: 60px !important;
+  padding-bottom: 20px;
+  margin-top: 1em;
+  font-family: "Rawk";
+}
+body .Randomizer .randomizeBox .btn {
+  background-color: #8f268a;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase !important;
+  z-index: 9 !important;
+}
+body .Randomizer .randomizeBox .btn:hover {
+  background-color: #207761;
+}
+body .Randomizer .word-description {
+  float: left;
+  width: 80%;
+  margin-left: 40px;
+  margin-top: -45em !important;
+  z-index: 9 !important;
+}
+body .Randomizer .word-description .word-title {
+  font-size: 35px;
+  color: white;
+  font-family: "Cute";
+  text-shadow: 5px 5px 8px #8f268a;
+  filter: drop-shadow(4px 3px 2px #181818);
+  text-transform: uppercase;
+}
+body .Randomizer .word-description .word-desc-result::first-letter {
+  text-transform: uppercase;
+}
+body .Randomizer .word-description .data-aside {
+  color: #131313;
+}
+body .Randomizer .word-description .word-desc-result-type {
+  font-size: 15px;
+  margin-top: -0.6em;
+}
+body .Randomizer .word-description .word-desc-result {
+  font-size: 15px;
+  padding: 5px 5px;
+}
+body .Randomizer .word-description h4 {
+  font-size: 22px;
+  font-family: "Merriweather", serif;
+  font-weight: 800;
+}
+body .Randomizer .word-description .volume:hover {
+  color: rgba(255, 255, 255, 0.952);
+  border: none;
+  transition: 0.9s;
+  background-color: #8f268a;
+}
+body .Randomizer .word-description .volume {
+  background-color: #207761;
+  color: white;
+  border: none;
+}
+body .Randomizer .word-description .volume i {
+  padding-top: 5px !important;
+}
+body .Dictionary .List {
+  width: 96% !important;
+  max-height: 200px;
+  margin-left: 30px !important;
+  text-align: justify;
+}
+body .Dictionary .List h1 {
+  text-align: center;
+}
+body .Dictionary .List p {
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=styles.scss.map */
+
+/*# sourceMappingURL=index.css.map */

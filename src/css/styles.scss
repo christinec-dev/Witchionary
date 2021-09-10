@@ -1,0 +1,227 @@
+$primary-header: rgb(255, 255, 255);
+$color-white: rgba(255, 255, 255, 0.952);
+$color-grey: #131313;
+$color-black: rgb(24, 24, 24);
+$color-green: rgb(0, 255, 191);
+$color-purple:rgb(143, 38, 138);
+$color-underline: rgba(206, 79, 199, 0.76);
+$color-darker: rgb(32, 119, 97);
+$color-blur: #36363617;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+@font-face {
+    font-family: "Witchy";
+    src: url(./CreepyWitchPersonalUse-GOvXq.ttf);
+}
+
+@font-face {
+    font-family: "Cute";
+    src: url(./WashelCute-AL9Vg.otf);
+}
+
+@font-face {
+    font-family: "Rawk";
+    src: url(./RawkDemo-vmGyD.otf);
+}
+
+body {
+    overflow-x: hidden;
+    backdrop-filter: blur(1.5px) !important;
+    margin: 0 auto;
+    text-align: center !important;
+    background: url(../images/background.jpg) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    height:100vh !important;
+    z-index: -5!important;
+    overflow-y: hidden;
+
+    .Header {
+        font-size: 150px;
+        padding-top: 20px;text-shadow: 3px 3px  5px $color-green;
+        color: $color-white;
+        font-family: "Rawk";filter: drop-shadow(1px 1px 5px $color-darker);
+    }
+    
+    .Header:hover {
+        text-shadow: 5px 5px 2px $color-darker;transition: 1s;
+    }
+      
+    .Generator {
+        padding: 20px 20px;
+
+        .word-description {
+          background-color: $color-blur;
+          padding: 30px;
+        }
+
+        .word-desc-list {
+            padding-top: 2px;
+            color: $primary-header;
+            font-weight: 800;
+            text-decoration: 9px solid underline $color-underline;font-size: 23px;
+            text-transform: uppercase;font-family: 'Merriweather', serif;filter: drop-shadow(.5px .8px $color-grey);
+        }
+
+        .volume {
+            background-color: $color-green;color: $color-grey;
+            i {
+                padding-top: 5px !important;
+            }
+        }
+
+        .volume:hover {
+            color: $color-white;border: none;transition: .9s;
+            background-color: $color-purple;
+        }
+        
+        .word-desc-result {
+            color: $primary-header; text-shadow: 1px 1px 8px $color-green;
+            font-size: 18px;
+        }
+
+        h2{
+           font-size: 45px;
+           color: $primary-header;font-family: 'Cute';text-shadow: 5px 5px 8px $color-purple;  filter: drop-shadow(4px 3px 2px $color-black);
+           margin-top: 40px;
+        }
+        
+        .searchBox {
+            width: 60%;
+            text-align-last:center !important;
+            margin-left: 20%;font-family: 'Merriweather', serif;
+
+            .search-btn {
+                box-shadow: 1px 2px 5px $color-purple;
+                background-color: $color-purple;border: none;
+                width: 70px !important;
+            }
+
+            .search-btn:hover {
+                color: $color-grey;
+                background-color: $color-green;
+            }
+
+            #exampleText {
+                height: 70px;
+                box-shadow: -2px 1px 5px  $color-purple;
+                padding-top: 22px;
+                color: $color-purple;
+                font-size: 20px;
+                font-weight: 600;
+             }
+        }
+    }
+
+    .scroll{
+        background: url(../images/scroll.png) !important;
+        background-repeat: no-repeat !important;
+        background-size: contain !important;
+        z-index: -6 !important;
+        filter: drop-shadow(1px 1px 4px $color-green);
+    }
+
+    .Randomizer {
+        margin-top: 10px;
+        height: 80vh; 
+        z-index: 2 !important;
+
+        .randomizeBox {          
+            height: 100vh;
+            padding: 20px 20px;      
+            z-index: 2 !important;
+            
+            h1 {
+                font-size: 60px !important;
+                padding-bottom: 20px;
+                margin-top: 1em;
+                font-family: "Rawk";
+             }
+
+             .btn {
+                background-color: $color-purple;
+                border: none;font-weight: 700;
+                text-transform: uppercase !important;       
+                z-index: 9 !important;
+             }
+
+             .btn:hover {
+                background-color: $color-darker;
+             }
+        }    
+        
+        .word-description {
+            float: left;
+            width: 80%;
+            margin-left: 40px;
+            margin-top: -45em !important;z-index: 9!important;
+
+            .word-title {
+                font-size: 35px;
+                color: $primary-header;
+                font-family: 'Cute';
+                text-shadow: 5px 5px 8px $color-purple;
+                filter: drop-shadow(4px 3px 2px $color-black);
+                text-transform: uppercase;
+            }
+            
+            .word-desc-result::first-letter {
+                text-transform: uppercase;
+            }
+        
+            .data-aside {
+                color: $color-grey;
+            }
+
+            .word-desc-result-type {
+                font-size: 15px;
+                margin-top: -.6em;
+            }
+
+            .word-desc-result {
+                font-size: 15px;
+                padding: 5px 5px;
+            }
+            
+            h4 {
+                font-size: 22px;
+                font-family: 'Merriweather', serif;
+                font-weight: 800;
+            }
+            .volume:hover {
+                color: $color-white;border: none;transition: .9s;
+                background-color: $color-purple;
+            }
+
+            .volume {
+                background-color: $color-darker;
+                color: $primary-header;
+                border: none;
+
+                i {
+                    padding-top: 5px !important;
+                } 
+            }
+        }
+    }  
+    
+    .Dictionary .List {
+        width: 96% !important;
+        max-height: 200px;
+        margin-left: 30px !important;
+        text-align: justify;
+        
+        h1 {
+            text-align: center; 
+        }
+    
+        p {
+            text-transform: capitalize;
+            margin-top: 20px;
+        }
+    }
+
+
+}
+
+/*# sourceMappingURL=styles.scss.map */
