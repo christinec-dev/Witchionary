@@ -1,12 +1,18 @@
 # Witchionary 🔮 
-This repository contains my version of a Dictionary Application made with the <a href="https://dictionaryapi.dev/"> FreeDictionary </a> API. I made it a bit spooky, hence the name Witchionary! 
+This repository contains my version of a Dictionary Application made with the <a href="https://dictionaryapi.dev/"> Free Dictionary </a> API. I made it a bit spooky, hence the name _Witchionary_! ✨
 
-With Witchionary you can search any word that you need and it will return the Parts of Speech, Meaning and Exemplary Usage for the word. For this applicastion, I used the <a href="https://www.npmjs.com/package/axios">Axios</a> npm package to make HTTP requests from the browser & FreeDictionary's API's. I also used custom fonts from Font Space and Freepic - the credits can be found in the Credits folder.
+With Witchionary you can search any word that you need and it will return the Parts of Speech, Meaning and Exemplary Usage for the word. For this applicastion, I used the <a href="https://www.npmjs.com/package/axios">axios</a> npm package to make HTTP requests from the browser & FreeDictionary's API's. I also used custom fonts from Font Space and Freepic - the credits can be found in the _Credits_ folder.
 
-Day x (I've lost count) of trying to code in React on my own was a success. I completed it with the following: React, JavaScript, SCSS and Bootstrap.
+Day x (I've lost count, oof) of trying to code in React on my own was a success. I completed it with the following: React, JavaScript, SCSS and Bootstrap.
 
-## UI
+## Main Display
+![screencapture-localhost-3000-2021-09-10-20_58_21](https://user-images.githubusercontent.com/87696858/132907112-1a8b0ad0-1073-4862-aa5a-eec9e18bc689.png)
 
+## Search Word
+![screencapture-localhost-3000-2021-09-10-20_59_03](https://user-images.githubusercontent.com/87696858/132907128-5b4053e4-62b5-4990-80d2-0c82319afdfa.png)
+
+## Randomize Word
+![screencapture-localhost-3000-2021-09-10-20_59_27](https://user-images.githubusercontent.com/87696858/132907138-48bbdaa2-85dc-402a-8b29-a0ddd863b1a3.png)
 
 
 # Getting Started with Create React App
