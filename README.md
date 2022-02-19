@@ -5,6 +5,10 @@ With Witchionary you can search any word that you need and it will return the Pa
 
 Day x (I've lost count, oof) of trying to code in React on my own was a success. I completed it with the following: React, JavaScript, SCSS and Bootstrap.
 
+## 💣 Play Via Demo Link  💣 ## 
+[Witchionary Game](witchionary.herokuapp.com/)
+#### **Please note that if the app does not load or gives an error, just reload the page and Heroku will work again. Sorry for any inconveniece :) ####
+
 ## Main Display
 ![screencapture-localhost-3000-2021-09-10-20_58_21](https://user-images.githubusercontent.com/87696858/132907112-1a8b0ad0-1073-4862-aa5a-eec9e18bc689.png)
 
